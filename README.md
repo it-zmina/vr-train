@@ -71,3 +71,7 @@ Models:
 Audio:
 - https://mixkit.co/free-sound-effects/game/
 - https://elements.envato.com/sound-effects
+
+### Github repository with useful links
+
+[https://github.com/it-zmina/vr-info/blob/main/WEB-VR.md](https://github.com/it-zmina/vr-info/blob/main/WEB-VR.md)
