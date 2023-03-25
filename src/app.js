@@ -173,17 +173,7 @@ class App {
         }
 
         function showOption() {
-            // Subtask 3. Show answer options
-
-            const options = self.questions.questions[questionIndex].options;
-            if (answerIndex < 0) answerIndex = 0;
-            if (answerIndex >= options.length) answerIndex = options.length - 1;
-            let display = (answerIndex > 0) ? "block" : "none";
-            self.ui.updateConfig("prev", "display", display);
-            display = (answerIndex < (options.length - 1)) ? "block" : "none";
-            self.ui.updateConfig("next", "display", display);
-            self.ui.updateElement("header", "Select a response");
-            self.ui.updateElement("panel", options[answerIndex].text);
+            // Subtask 1.3. Show answer options
 
         }
 
