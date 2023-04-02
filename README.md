@@ -80,6 +80,6 @@ Audio:
 
 1. Create repository for site content. For example `github.com/<user-name>/page`
 2. Remove `/dist/` record from `.gitignore` file ![](docs/gitignore.png)
-3. Add submodule with your site repository ```git submodule add git@github.com-it-zmina:it-zmina/page.git dist```
+3. Add submodule with your site repository ```git submodule add https://<ACCESS_TOKEN>@github.com-it-zmina:it-zmina/page.git dist```
 4. Build site content into `dist` folder
 5. Push commit and push updates for submodule
